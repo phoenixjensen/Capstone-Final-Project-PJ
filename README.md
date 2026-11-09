@@ -27,3 +27,13 @@ These results are essential to resolving the original business problem of how to
 
 ## Limitations
 A limitation of this project is that it does not address seasonality or certain times of year. With more time, it would be valuable to explore how different seasons or busy times can impact the changes in units sold. This is a weakness of the project since demand and the frequency in which consumers are purchasing products can vary significantly during certain times, an example being the holiday season. 
+
+## Instructions for installation
+Follow these instructions to run this code. 
+
+First, clone the repository from GitHub using: 
+git clone https://github.com/phoenixjensen/Capstone-Final-Project-PJ.git
+
+Second, ensure that all required libraries are installed. The necessary libraries can be found in requirements.txt or use the command: pip install -r requirements.txt
+
+Finally, run all the cells in each of the notebooks in the notebooks section. The notebooks should be run in the order of 01_data exploration, 02_data_cleaning, and end with 03_modeling_and_evaluation. Each notebook builds off of the previous one, and so it is essential that each notebook is run to create the proper results. Review the outputs in the notebook titled 03_modeling_and_evaluation for a more in-depth analysis, or view the images under the reports section for a general overview. 
